@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Web Development</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Learning Web Development</h1>
+        <nav>
+            <ul>
+                <li><a href="#text-formatting">Text Formatting</a></li>
+                <li><a href="#multimedia">Multimedia</a></li>
+                <li><a href="#form-controls">Form Controls</a></li>
+                <li><a href="#typography">Typography</a></li>
+                <li><a href="#tables">Tables</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="text-formatting">
+            <h2>Text Formatting</h2>
+            <p><strong>Bold Text:</strong> <strong>This is bold text</strong></p>
+            <p><em>Italic Text:</em> <em>This is italic text</em></p>
+            <p><mark>Highlighted Text:</mark> This text is highlighted.</p>
+            <p><del>Strikethrough Text:</del> This text has a strikethrough.</p>
+            <p><u>Underlined Text:</u> This text is underlined.</p>
+        </section>
+        
+        <section id="multimedia">
+            <h2>Multimedia</h2>
+            <h3>Image</h3>
+            <img src="sample.jpg" alt="Placeholder Image" height="300" width="300">
+            <h3>Audio</h3>
+            <audio controls>
+                <source src="sample.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <h3>Video</h3>
+            <video width="600" controls>
+                <source src="sample.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+        
+        <section id="form-controls">
+            <h2>Basic Structure of Form</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+                
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+        
+        <section id="typography">
+            <h2>Typography with My Custom Font</h2>
+            <p class="custom-font">This text is styled with a custom font. And I Learned New Information about HTML .</p>
+        </section>
+        
+        <section id="tables">
+            <h2>Information Table about Company Workers </h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Occupation</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Rishi Gaikwad</td>
+                        <td>21</td>
+                        <td>Boss</td>
+                    </tr>
+                    <tr>
+                        <td>Pranay Jha</td>
+                        <td>56</td>
+                        <td>Employee</td>
+                    </tr>
+                    <tr>
+                        <td>Mayur Mahajan</td>
+                        <td>15</td>
+                        <td>Team Leader</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+</html>
